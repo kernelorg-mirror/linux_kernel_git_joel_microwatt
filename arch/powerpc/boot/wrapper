@@ -351,6 +351,7 @@ microwatt)
     link_address='0x500000'
     platformo="$object/fixed-head.o $object/$platform.o"
     binary=y
+    pie=-pie
     ;;
 treeboot-currituck)
     link_address='0x1000000'
